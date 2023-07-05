@@ -8,12 +8,18 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--slate-color-text);
+  background-color: var(--white-color);
 }
 
 /* UTILITIES */
 
 .list {
   list-style: none;
+}
+
+.link{
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -29,11 +35,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: var(--navyblue-color-titles);
-  text-decoration: none;
+  color: var(--primary-accent-color);
 }
 .logo-accent {
-  color: var(--primary-accent-color);
+  color: var(--navyblue-color-titles);
 }
 .header-nav-menu {
 }
@@ -45,7 +50,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--navyblue-color-titles);
-  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -54,6 +58,7 @@ body {
 }
 
 .header-adress {
+    font-style: normal
 }
 .adress-menu {
 }
@@ -62,11 +67,9 @@ body {
 .adress-link {
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--slate-color-text);
-  text-decoration: none;
 }
 
 .adress-link:hover,
@@ -87,13 +90,15 @@ body {
   text-align: center;
 }
 .hero-button {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--primary-accent-color);
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -121,7 +126,6 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--slate-color-text);
 }
 
 /* OUR WORK */
@@ -153,6 +157,7 @@ body {
 .team-menu {
 }
 .team-item {
+    background-color: var(--white-color);
 }
 .name {
   font-size: 20px;
@@ -166,7 +171,6 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--slate-color-text);
 }
 
 /* FOOTER */
@@ -182,8 +186,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: var(--secundary-accent-color);
-  text-decoration: none;
+  color: var(--primary-accent-color);
+}
+
+.footer-logo-accent{
+color: var(--secundary-accent-color);
 }
 
 .footer-text {
@@ -197,13 +204,14 @@ body {
 /* PORTFOLIO */
 
 .portfolio-button {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   color: var(--primary-accent-color);
   background-color: var(--secundary-accent-color);
-  text-align: center;
+  cursor: pointer;
 }
 
 .portfolio-button:hover,
