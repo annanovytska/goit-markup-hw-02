@@ -1,0 +1,229 @@
+:root {
+  --navyblue-color-titles: #2e2f42;
+  --slate-color-text: #434455;
+  --white-color: #ffffff;
+  --primary-accent-color: #4d5ae5;
+  --secundary-accent-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* UTILITIES */
+
+.list {
+  list-style: none;
+}
+
+/* HEADER */
+
+.header {
+}
+.header-nav {
+}
+.logo {
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--navyblue-color-titles);
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--primary-accent-color);
+}
+.header-nav-menu {
+}
+.header-item {
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--navyblue-color-titles);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: #404BBF;
+}
+
+.header-adress {
+}
+.adress-menu {
+}
+.adress-item {
+}
+.adress-link {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate-color-text);
+  text-decoration: none;
+}
+
+.adress-link:hover,
+.adress-link:focus{
+    color: #404BBF;
+}
+
+/* HERO */
+.hero {
+  background-color: var(--navyblue-color-titles);
+}
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: var(--white-color);
+  text-align: center;
+}
+.hero-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  letter-spacing: 0.32px;
+  color: var(--white-color);
+  background-color: var(--primary-accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #404BBF;
+}
+
+/* FEATURES */
+
+.features {
+}
+.features-menu {
+}
+.features-item {
+}
+.features-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--navyblue-color-titles);
+}
+.features-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate-color-text);
+}
+
+/* OUR WORK */
+
+.work-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--navyblue-color-titles);
+  text-align: center;
+}
+
+/* OUR TEAM */
+
+.team {
+  background-color: var(--secundary-accent-color);
+}
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--navyblue-color-titles);
+  text-align: center;
+}
+.team-menu {
+}
+.team-item {
+}
+.name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--navyblue-color-titles);
+}
+.position {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate-color-text);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--navyblue-color-titles);
+}
+
+.footer-logo {
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--secundary-accent-color);
+  text-decoration: none;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--secundary-accent-color);
+}
+
+/* PORTFOLIO */
+
+.portfolio-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  color: var(--primary-accent-color);
+  background-color: var(--secundary-accent-color);
+  text-align: center;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--white-color);
+  background-color: #404bbf;
+}
+
+.portfolio-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--navyblue-color-titles);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate-color-text);
+}
